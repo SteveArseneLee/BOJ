@@ -2,7 +2,7 @@ from collections import deque
 
 M, N = map(int, input().split())
 tots = [list(map(int, input().split())) for _ in range(N)]
-queue = deque() # 꼭 deque를 쓰지 않아도 됨
+queue = deque()
 
 for i in range(N):
     for j in range(M):
